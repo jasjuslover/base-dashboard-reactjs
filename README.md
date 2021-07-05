@@ -1,4 +1,4 @@
-# Simple NextJS Dashboard
+# Simple ReactJS Dashboard
 
 Simple dashboard using ReactJS. This project using windmill html template dashboard that adapted to React JS. I'm using windmill html template to simplify my code, instead using a windmill react template.
 
