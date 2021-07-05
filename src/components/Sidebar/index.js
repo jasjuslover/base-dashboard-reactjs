@@ -1,15 +1,19 @@
-import React, { useContext } from "react";
-import { SidebarContext } from "../../context/SidebarContext";
-import { Transition } from "@headlessui/react";
+import React, { useContext } from 'react';
+import { SidebarContext } from '../../context/SidebarContext';
+import { Transition } from '@headlessui/react';
 
 export default function Sidebar() {
-  const { isPagesMenuOpen, isSideMenuOpen, togglePagesMenu } = useContext(SidebarContext);
+  const { isPagesMenuOpen, isSideMenuOpen, togglePagesMenu } =
+    useContext(SidebarContext);
 
   return (
     <>
       <aside className="z-20 flex-shrink-0 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block">
         <div className="py-4 text-gray-500 dark:text-gray-400">
-          <a className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="#">
+          <a
+            className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
+            href="#"
+          >
             Windmill
           </a>
           <ul className="mt-6">
@@ -182,7 +186,12 @@ export default function Sidebar() {
                   </svg>
                   <span className="ml-4">Pages</span>
                 </span>
-                <svg className="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                <svg
+                  className="w-4 h-4"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
                   <path
                     fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -270,7 +279,10 @@ export default function Sidebar() {
       >
         <aside className="fixed inset-y-0 z-20 flex-shrink-0 w-64 mt-16 overflow-y-auto bg-white dark:bg-gray-800 md:hidden">
           <div className="py-4 text-gray-500 dark:text-gray-400">
-            <a className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="#">
+            <a
+              className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
+              href="#"
+            >
               Windmill
             </a>
             <ul className="mt-6">
@@ -443,7 +455,12 @@ export default function Sidebar() {
                     </svg>
                     <span className="ml-4">Pages</span>
                   </span>
-                  <svg className="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                  <svg
+                    className="w-4 h-4"
+                    aria-hidden="true"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
                     <path
                       fill-rule="evenodd"
                       d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"

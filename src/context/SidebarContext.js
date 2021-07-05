@@ -1,4 +1,4 @@
-import React, { useState, useMemo, createContext } from "react";
+import React, { useState, useMemo, createContext } from 'react';
 
 export const SidebarContext = createContext();
 
@@ -33,10 +33,17 @@ export const SidebarProvider = ({ children }) => {
       togglePagesMenu,
       toggleSideMenu,
       toggleNotificationsMenu,
-      toggleProfileMenu,
+      toggleProfileMenu
     }),
-    [isSideMenuOpen, isPagesMenuOpen, isNotificationsMenuOpen, isProfileMenuOpen]
+    [
+      isSideMenuOpen,
+      isPagesMenuOpen,
+      isNotificationsMenuOpen,
+      isProfileMenuOpen
+    ]
   );
 
-  return <SidebarContext.Provider value={value}>{children}</SidebarContext.Provider>;
-}
+  return (
+    <SidebarContext.Provider value={value}>{children}</SidebarContext.Provider>
+  );
+};
