@@ -3,31 +3,40 @@
 Simple dashboard using ReactJS. This project using windmill html template dashboard that adapted to React JS. I'm using windmill html template to simplify my code, instead using a windmill react template.
 
 ### How to Run
+
 This is a ReactJS project, so if you already try ReactJS, you just try to run as usual, both works using `npm` or `yarn`
+
 - Make sure you already have NodeJS installed on your device. I'm using NodeJS v12.13.0
-- Simply clone this repository using 
+- Simply clone this repository using
 
 for ssh:
+
 ```bash
-git clone git@github.com:jasjuslover/base-dashboard-nextjs.git
-``` 
+git clone git@github.com:jasjuslover/base-dashboard-reactjs.git
+```
+
 for https
+
 ```bash
-git clone https://github.com/jasjuslover/base-dashboard-nextjs.git
+git clone https://github.com/jasjuslover/base-dashboard-reactjs.git
 ```
 
 - Install all dependencies using `npm install` or if you're using yarn, simply type `yarn`
 - Type `npm start` or `yarn start` and the projects will ready on localhost:3000
 
 ### Features
+
 If you have any advices for this project, you can just contact me or you can simply open issues or discussion.
-* [x] Simple Dashboard Layout
+
+- [x] Simple Dashboard Layout
 
 #### On Progress Feature
-* [ ] Simple Data Table
-* [ ] Login
+
+- [ ] Simple Data Table
+- [ ] Login
 
 ### License
+
 ```xml
 MIT License
 

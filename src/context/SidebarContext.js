@@ -1,4 +1,5 @@
 import React, { useState, useMemo, createContext } from 'react';
+import PropTypes from 'prop-types';
 
 export const SidebarContext = createContext();
 
@@ -46,4 +47,8 @@ export const SidebarProvider = ({ children }) => {
   return (
     <SidebarContext.Provider value={value}>{children}</SidebarContext.Provider>
   );
+};
+
+SidebarProvider.propTypes = {
+  children: PropTypes.element.isRequired
 };
