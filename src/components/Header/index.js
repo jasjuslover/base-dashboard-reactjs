@@ -1,3 +1,5 @@
+'use strict';
+
 import React, { useContext } from 'react';
 import { SidebarContext } from '../../context/SidebarContext';
 import { Transition } from '@headlessui/react';
